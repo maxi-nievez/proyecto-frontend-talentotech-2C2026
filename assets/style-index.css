@@ -1,0 +1,46 @@
+/* Etiquetas generales */
+
+body{
+    /* background-color: orange; */
+    background-color: #f8f8f8;
+    font-size: 1.5vw;
+    height: 600vh; /* Hay que verificar que esté colocado de manera correcta */
+    
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    width: 90%;
+    padding: 16px 5%;
+    /* background-color: red; */
+}
+
+.links-acceso span a{
+    display: inline;
+    border: 1px solid black; /*Ya tiene todas las props incluidas*/
+    padding: 0.3rem;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    gap: 24px;
+
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-index{
+    height: auto;
+    width: 150px;
+    /* background-color: blue; */
+    /* display: inline; */
+    /* background-image: url("../img/logo-web.jpg"); */
+    /* padding-top: 5vh; */
+}
