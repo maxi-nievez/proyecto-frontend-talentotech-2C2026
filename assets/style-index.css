@@ -44,3 +44,13 @@ body{
     /* background-image: url("../img/logo-web.jpg"); */
     /* padding-top: 5vh; */
 }
+
+
+/* Productos */
+
+.grid-productos{
+    display: grid;
+    color: black;
+    background-color: #f9a9f9;
+}
+
